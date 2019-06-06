@@ -102,6 +102,16 @@
     tslib "^1.8.1"
     tsutils "^3.5.0"
 
+"@fimbul/bifrost@^0.21.0":
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/@fimbul/bifrost/-/bifrost-0.21.0.tgz#d0fafa25938fda475657a6a1e407a21bbe02c74e"
+  integrity sha512-ou8VU+nTmOW1jeg+FT+sn+an/M0Xb9G16RucrfhjXGWv1Q97kCoM5CG9Qj7GYOSdu7km72k7nY83Eyr53Bkakg==
+  dependencies:
+    "@fimbul/ymir" "^0.21.0"
+    get-caller-file "^2.0.0"
+    tslib "^1.8.1"
+    tsutils "^3.5.0"
+
 "@fimbul/mimir@^0.17.0":
   version "0.17.0"
   resolved "https://registry.yarnpkg.com/@fimbul/mimir/-/mimir-0.17.0.tgz#8c4c2173ed57080931137fca26eb4f0a94b34d0b"
@@ -120,12 +130,12 @@
   dependencies:
     mock-require "^3.0.2"
 
-"@fimbul/valtyr@^0.17.0":
-  version "0.17.0"
-  resolved "https://registry.yarnpkg.com/@fimbul/valtyr/-/valtyr-0.17.0.tgz#5475f02515656ecb14112b247dc57a533c987fa7"
-  integrity sha512-MnhgI5BLTD5Mj830nyn71ZOWcjBPg9kwN28BQne3SjD5/PO1gY9MUd9K85UcDfxniGDKoEMXjuatJvd7W7953g==
+"@fimbul/valtyr@^0.21.0":
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/@fimbul/valtyr/-/valtyr-0.21.0.tgz#54842553ee4569e86ab615a4145138c36357c47a"
+  integrity sha512-BXJBsXkgAdl9Zwajd+xNbKelmQuOYEPC0+Z3hUYPKJnhJYqSALknIhSuBwSLDUlS2NsV/riCKYJYfw9ooVdRfA==
   dependencies:
-    "@fimbul/bifrost" "^0.17.0"
+    "@fimbul/bifrost" "^0.21.0"
     inversify "^5.0.0"
     tslib "^1.8.1"
     tslint "^5.0.0"
@@ -161,6 +171,15 @@
   version "0.17.0"
   resolved "https://registry.yarnpkg.com/@fimbul/ymir/-/ymir-0.17.0.tgz#4f28389b9f804d1cd202e11983af1743488b7815"
   integrity sha512-xMXM9KTXRLHLVS6dnX1JhHNEkmWHcAVCQ/4+DA1KKwC/AFnGHzu/7QfQttEPgw3xplT+ILf9e3i64jrFwB3JtA==
+  dependencies:
+    inversify "^5.0.0"
+    reflect-metadata "^0.1.12"
+    tslib "^1.8.1"
+
+"@fimbul/ymir@^0.21.0":
+  version "0.21.0"
+  resolved "https://registry.yarnpkg.com/@fimbul/ymir/-/ymir-0.21.0.tgz#8525726787aceeafd4e199472c0d795160b5d4a1"
+  integrity sha512-T/y7WqPsm4n3zhT08EpB5sfdm2Kvw3gurAxr2Lr5dQeLi8ZsMlNT/Jby+ZmuuAAd1PnXYzKp+2SXgIkQIIMCUg==
   dependencies:
     inversify "^5.0.0"
     reflect-metadata "^0.1.12"
